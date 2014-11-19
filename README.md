@@ -16,7 +16,10 @@ Makefile, but if you are planning to run it directly with lein (or if your
 system uses a different locale variable), you will have to export them manually.
 
 You can change the test image, language or path to tesseract data dir by
-editting core.clj inside.
+editing core.clj inside.
+
+Also, check [Tess4j doc](http://tess4j.sourceforge.net/docs/docs-1.2/) for
+another possible input types.
 
 ## Quality
 
